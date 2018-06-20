@@ -1,4 +1,4 @@
-core <- c("sorensonimpact", "conflicted", "janitor", "fs", "naniar", "visdat", "lubridate", "skimr", "readxl")
+core <- c("sorensonimpact", "janitor", "fs", "naniar", "visdat", "lubridate", "skimr", "readxl", "viridis", "knitr", "rmarkdown")
 
 core_loaded <- function() {
   search <- paste0("package:", core)
