@@ -1,6 +1,6 @@
 Package: siverse
 Title: Easily Install and Load Select Packages
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: c(
     person("Michael Wayne", "Kearney", , email = "mike.wayne.kearney@gmail.com", role = c("aut", "cre"))
   )
