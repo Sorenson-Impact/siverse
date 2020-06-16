@@ -268,10 +268,10 @@ style_grey <- function(level, ...) {
   crayon::num_colors(TRUE)
   siverse_attach()
 
-  if (!"package:conflicted" %in% search()) {
-    x <- siverse_conflicts()
-    msg(siverse_conflict_message(x), startup = TRUE)
-  }
+  # if (!"package:conflicted" %in% search()) {
+  #   x <- siverse_conflicts()
+  #   msg(siverse_conflict_message(x), startup = TRUE)
+  # }
 
 }
 
